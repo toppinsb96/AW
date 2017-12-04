@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>514990791840-t0dt0j879q39skdq1k11okpq89utbp7e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.514990791840-t0dt0j879q39skdq1k11okpq89utbp7e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0IOhu0mGZg3ouVi5AgKcB1DjmiHTzVQM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>514990791840</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gpkday.ArtisticWalls</string>
+	<key>PROJECT_ID</key>
+	<string>painting-38a7c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>painting-38a7c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:514990791840:ios:b95d3ff47cd277ee</string>
+	<key>DATABASE_URL</key>
+	<string>https://painting-38a7c.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_ArtisticWallsTests {
+  umbrella header "Pods-ArtisticWallsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
