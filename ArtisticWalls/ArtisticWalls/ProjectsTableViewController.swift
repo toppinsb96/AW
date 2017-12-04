@@ -18,22 +18,20 @@ class ProjectsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dbRef = Database.database().reference().child("project-items")
-        
         // startObservingDB()
     }
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
+    func viewData() {
         Auth.auth().addStateDidChangeListener { (auth: Auth, user: FirebaseAuth.User?) in
-            if user != nil {
+            print(user?.email)
+            if user?.email != nil {
                 print("Welcome")
                 self.startObservingDB()
+                let result = user?.email
             }else{
                 print("You need to sign up or login first")
             }
         }
     }
-    
     @IBAction func loginAndSignUp(_ sender: Any) {
         
         let userAlert = UIAlertController(title: "Login/Sign up", message: "Enter email and password", preferredStyle: .alert)
@@ -49,6 +47,7 @@ class ProjectsTableViewController: UITableViewController {
             let passwordtextField = userAlert.textFields!.last!
             
             Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordtextField.text!)
+            self.viewData()
         }))
         userAlert.addAction(UIAlertAction(title: "Sign up", style: .default, handler: { (action:UIAlertAction) in
             let emailTextField = userAlert.textFields!.first!
@@ -74,14 +73,17 @@ class ProjectsTableViewController: UITableViewController {
     }
     @IBAction func addProject(_ sender: Any) {
         let projectAlert = UIAlertController(title: "New Project", message: "Enter Project Name", preferredStyle: .alert)
-        
-        projectAlert.addTextField { (textField:UITextField) in
+            projectAlert.addTextField { (textField:UITextField) in
             textField.placeholder = "Your Project"
         }
         
+        let userContent = ""
+        
         projectAlert.addAction(UIAlertAction(title: "Send", style: .default, handler: { (action:UIAlertAction) in
-            if let projectContent = projectAlert.textFields?.first?.text {
-                let project = Project(content: projectContent, addedByUser: "Brandon Toppins")
+            if let projectContent = projectAlert.textFields?.first?.text{
+                if projectContent == "" { return }
+                self.viewData()
+                let project = Project(content: projectContent, addedByUser: userContent)
                 let projectRef = self.dbRef.child(projectContent.lowercased())
                 
                 projectRef.setValue(project.toAny())

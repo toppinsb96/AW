@@ -18,12 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        
-        // Auth.auth().createUser(withEmail: "toppinsb@gmail.com", password: "123456")
-        
-        //Auth.auth().signIn(withEmail: "toppinsb@gmail.com", password: "123456")
-        
-        
         return true
     }
 

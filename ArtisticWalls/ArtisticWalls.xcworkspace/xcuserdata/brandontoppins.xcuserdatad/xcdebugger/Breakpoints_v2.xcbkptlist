@@ -6,279 +6,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Podfile"
-            timestampString = "533787628.468719"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
-            timestampString = "533781059.34987"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectTableViewController.swift"
-            timestampString = "533787628.472717"
+            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
+            timestampString = "534109921.658693"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "unwindToProjectList(sender:)"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewData()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectTableViewController.swift"
-            timestampString = "533787628.473155"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "ProjectTableViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.103886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.104366"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533858441.294912"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "106">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533858441.298232"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(style: __C.UITableViewStyle) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533858441.301465"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "31">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533858441.304101"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "77">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ArtisticWalls.ProjectsTableViewController&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533858441.310303"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "47">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/AppDelegate.swift"
-            timestampString = "533858441.104719"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.104786"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "unknown"
-            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
+                  symbolName = "ArtisticWalls.ProjectsTableViewController.viewData() -&gt; Swift.String"
                   moduleName = "ArtisticWalls"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.14026"
+                  urlString = "file:///Users/brandontoppins/Documents/GitHub/AW/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
+                  timestampString = "534109522.631135"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "106">
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "52">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
+                  symbolName = "closure #1 (__ObjC.Auth, Swift.Optional&lt;__ObjC.User&gt;) -&gt; () in ArtisticWalls.ProjectsTableViewController.viewData() -&gt; Swift.String"
                   moduleName = "ArtisticWalls"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.142845"
+                  urlString = "file:///Users/brandontoppins/Documents/GitHub/AW/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
+                  timestampString = "534109522.634715"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(style: __C.UITableViewStyle) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.145122"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "31">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.14807"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "77">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ArtisticWalls.ProjectsTableViewController&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.151161"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "47">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "32">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -290,186 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.105102"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.projects.getter : Swift.Array&lt;ArtisticWalls.Project&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.16127"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "106">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.projects.setter : Swift.Array&lt;ArtisticWalls.Project&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.164645"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(style: __C.UITableViewStyle) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.166825"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "140">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ArtisticWalls.ProjectsTableViewController"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.169716"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ArtisticWalls.ProjectsTableViewController&gt;"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533855751.172744"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "116">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.10542"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.105749"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.106072"
+            timestampString = "534109921.673034"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.106366"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ArtisticWalls.ProjectsTableViewController.viewDidAppear(Swift.Bool) -&gt; ()"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533856893.192035"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "127">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__ObjC.Auth, Swift.Optional&lt;__ObjC.User&gt;) -&gt; () in ArtisticWalls.ProjectsTableViewController.viewDidAppear(Swift.Bool) -&gt; ()"
-                  moduleName = "ArtisticWalls"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/brandontoppins/Documents/GitHub/ArtisticWallsiOS/ArtisticWalls/ArtisticWalls/ProjectsTableViewController.swift"
-                  timestampString = "533856893.194582"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "25">
-               </Location>
-            </Locations>
+            landmarkName = "viewData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -479,13 +74,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
-            timestampString = "533858441.106626"
+            timestampString = "534109921.673993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "addProject(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
