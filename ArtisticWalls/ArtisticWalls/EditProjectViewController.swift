@@ -15,7 +15,6 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
     
     @IBOutlet weak var tableView: UITableView!
     
-    //emailProject
     @IBOutlet weak var buttonEmailCustomer: UIButton!
     
     @IBOutlet weak var buttonAddRoom: UIButton!
@@ -24,10 +23,6 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
     // name should be changed to emailProject
     @IBAction func emailCustomerPressed(_ sender: Any) {
         sendEmail()
-    }
-    
-    @IBAction func addRoomPressed(_ sender: Any) {
-        
     }
     
     let animals = ["Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval"]

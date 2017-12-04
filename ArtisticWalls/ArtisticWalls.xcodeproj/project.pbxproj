@@ -17,6 +17,7 @@
 		3D95A0951FBCBD3D003516EC /* ArtisticWallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0941FBCBD3D003516EC /* ArtisticWallsTests.swift */; };
 		3D95A0A41FBD5276003516EC /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0A31FBD5276003516EC /* Project.swift */; };
 		3D95A0A61FBD52DF003516EC /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0A51FBD52DF003516EC /* Component.swift */; };
+		3DA7C1EB1FD60CDB00DD2C80 /* EditRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */; };
 		71945AE31FD0E524007E11D7 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71945AE21FD0E523007E11D7 /* ProjectsTableViewController.swift */; };
 		71C048D71FD0D9200041B5EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C048D61FD0D9200041B5EA /* User.swift */; };
 		E69BA2FB159FAC840D3B9A40 /* Pods_ArtisticWallsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF11EF2E7EB5F729E9627DE /* Pods_ArtisticWallsTests.framework */; };
@@ -45,6 +46,7 @@
 		3D95A0961FBCBD3D003516EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D95A0A31FBD5276003516EC /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		3D95A0A51FBD52DF003516EC /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRoomViewController.swift; sourceTree = "<group>"; };
 		71945AE21FD0E523007E11D7 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 		71C048D61FD0D9200041B5EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76C1D23FE443525896B88A9D /* Pods-ArtisticWallsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtisticWallsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtisticWallsTests/Pods-ArtisticWallsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3D95A0A51FBD52DF003516EC /* Component.swift */,
 				3D7C2CFA1FCCC8F80006F4A9 /* GoogleService-Info.plist */,
 				3D95A0831FBCBD39003516EC /* Main.storyboard */,
+				3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */,
 				3D95A0861FBCBD3B003516EC /* Assets.xcassets */,
 				3D95A0881FBCBD3B003516EC /* LaunchScreen.storyboard */,
 			);
@@ -372,6 +375,7 @@
 				3D95A0A61FBD52DF003516EC /* Component.swift in Sources */,
 				3D95A0A41FBD5276003516EC /* Project.swift in Sources */,
 				3D95A0801FBCBD36003516EC /* AppDelegate.swift in Sources */,
+				3DA7C1EB1FD60CDB00DD2C80 /* EditRoomViewController.swift in Sources */,
 				71C048D71FD0D9200041B5EA /* User.swift in Sources */,
 				3D6D87DE1FD5E97300E41A46 /* EditProjectViewController.swift in Sources */,
 				71945AE31FD0E524007E11D7 /* ProjectsTableViewController.swift in Sources */,
