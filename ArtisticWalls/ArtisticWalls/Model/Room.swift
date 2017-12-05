@@ -39,4 +39,8 @@ struct Room {
             cost = ""
         }
     }
+    /*
+    func toAny() -> Any {
+        return ["content": content, "addedByUser": addedByUser]
+    }*/
 }

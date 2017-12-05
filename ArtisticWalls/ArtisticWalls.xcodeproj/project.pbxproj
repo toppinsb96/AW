@@ -18,6 +18,9 @@
 		3D95A0A41FBD5276003516EC /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0A31FBD5276003516EC /* Project.swift */; };
 		3D95A0A61FBD52DF003516EC /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0A51FBD52DF003516EC /* Component.swift */; };
 		3DA7C1EB1FD60CDB00DD2C80 /* EditRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */; };
+		3DA7C1ED1FD6C7DB00DD2C80 /* ProjectA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7C1EC1FD6C7DB00DD2C80 /* ProjectA.swift */; };
+		3DA7C1EF1FD6C8E100DD2C80 /* RoomA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7C1EE1FD6C8E100DD2C80 /* RoomA.swift */; };
+		3DA7C1F11FD6C92700DD2C80 /* ComponentA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7C1F01FD6C92700DD2C80 /* ComponentA.swift */; };
 		7104AB9F1FD6447900709EA1 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7104AB9E1FD6447900709EA1 /* Room.swift */; };
 		71945AE31FD0E524007E11D7 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71945AE21FD0E523007E11D7 /* ProjectsTableViewController.swift */; };
 		71C048D71FD0D9200041B5EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C048D61FD0D9200041B5EA /* User.swift */; };
@@ -48,6 +51,9 @@
 		3D95A0A31FBD5276003516EC /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		3D95A0A51FBD52DF003516EC /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRoomViewController.swift; sourceTree = "<group>"; };
+		3DA7C1EC1FD6C7DB00DD2C80 /* ProjectA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectA.swift; sourceTree = "<group>"; };
+		3DA7C1EE1FD6C8E100DD2C80 /* RoomA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomA.swift; sourceTree = "<group>"; };
+		3DA7C1F01FD6C92700DD2C80 /* ComponentA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentA.swift; sourceTree = "<group>"; };
 		7104AB9E1FD6447900709EA1 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		71945AE21FD0E523007E11D7 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 		71C048D61FD0D9200041B5EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -105,11 +111,14 @@
 				3D95A07F1FBCBD36003516EC /* AppDelegate.swift */,
 				71945AE21FD0E523007E11D7 /* ProjectsTableViewController.swift */,
 				3D6D87DD1FD5E97300E41A46 /* EditProjectViewController.swift */,
+				3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */,
+				3DA7C1EC1FD6C7DB00DD2C80 /* ProjectA.swift */,
+				3DA7C1EE1FD6C8E100DD2C80 /* RoomA.swift */,
+				3DA7C1F01FD6C92700DD2C80 /* ComponentA.swift */,
 				71945AE61FD0E8DC007E11D7 /* Model */,
 				3D95A0A51FBD52DF003516EC /* Component.swift */,
 				3D7C2CFA1FCCC8F80006F4A9 /* GoogleService-Info.plist */,
 				3D95A0831FBCBD39003516EC /* Main.storyboard */,
-				3DA7C1EA1FD60CDB00DD2C80 /* EditRoomViewController.swift */,
 				3D95A0861FBCBD3B003516EC /* Assets.xcassets */,
 				3D95A0881FBCBD3B003516EC /* LaunchScreen.storyboard */,
 			);
@@ -375,6 +384,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA7C1EF1FD6C8E100DD2C80 /* RoomA.swift in Sources */,
+				3DA7C1ED1FD6C7DB00DD2C80 /* ProjectA.swift in Sources */,
 				3D95A0A61FBD52DF003516EC /* Component.swift in Sources */,
 				3D95A0A41FBD5276003516EC /* Project.swift in Sources */,
 				7104AB9F1FD6447900709EA1 /* Room.swift in Sources */,
@@ -383,6 +394,7 @@
 				71C048D71FD0D9200041B5EA /* User.swift in Sources */,
 				3D6D87DE1FD5E97300E41A46 /* EditProjectViewController.swift in Sources */,
 				71945AE31FD0E524007E11D7 /* ProjectsTableViewController.swift in Sources */,
+				3DA7C1F11FD6C92700DD2C80 /* ComponentA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

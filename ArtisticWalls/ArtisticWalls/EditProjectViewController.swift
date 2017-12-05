@@ -9,9 +9,15 @@
 import UIKit
 import Foundation
 import MessageUI
+import os.log
 
 class EditProjectViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate {
 
+    
+     /*let animals = ["Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval"]*/
+    
+    var project = ProjectA()
+    var rooms = [RoomA]()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,15 +25,14 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
     
     @IBOutlet weak var buttonAddRoom: UIButton!
     
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    @IBOutlet weak var costLabel: UILabel!
     
     // name should be changed to emailProject
     @IBAction func emailCustomerPressed(_ sender: Any) {
         sendEmail()
     }
-    
-    let animals = ["Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval"]
-
-    let bossEmail = "tbtoppins@mail.lipscomb.edu"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,12 +53,12 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell"/*Identifier*/, for: indexPath as IndexPath)
-        cell.textLabel?.text = animals[indexPath.row]
+        cell.textLabel?.text = rooms[indexPath.row].name
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return animals.count
+        return rooms.count
     }
     
     // e-mail functions
@@ -61,7 +66,7 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
         
-        mailComposerVC.setToRecipients([bossEmail])
+        mailComposerVC.setToRecipients([""])
         mailComposerVC.setSubject("Artistic Walls Quote")
         mailComposerVC.setMessageBody("Supply cost to user and/or customer", isHTML: false)
         // FIXME: messageBody must contain all rooms and component info of project
@@ -86,14 +91,24 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
             self.showSendMailErrorAlert()
         }
     }
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        guard let button = sender as? UIBarButtonItem, button === saveButton else {
+            os_log("The save button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            return
+        }
+        
+        let name = "name"
+        let cost = CGFloat(Double(costLabel.text!)!)
+        
+        project = ProjectA(name: name, cost: cost, rooms: rooms)
+        
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+ 
 
 }
