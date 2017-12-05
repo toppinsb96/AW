@@ -27,7 +27,7 @@ class EditProjectViewController: UIViewController, UITableViewDataSource, UITabl
     
     let animals = ["Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval", "Cat", "Dog", "Cow", "Mulval"]
 
-    let bossEmail = "contact@withourhandspandi.com"
+    let bossEmail = "tbtoppins@mail.lipscomb.edu"
     
     override func viewDidLoad() {
         super.viewDidLoad()
