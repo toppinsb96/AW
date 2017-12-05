@@ -116,22 +116,4 @@ class ProjectsTableViewController: UITableViewController {
         }
     }
 }
-/*
-@IBAction func addProject(_ sender: Any) {
-    let projectAlert = UIAlertController(title: "New Project", message: "Enter Project Name", preferredStyle: .alert)
-    
-    projectAlert.addTextField { (textField:UITextField) in
-        textField.placeholder = "Your Project"
-    }
-    projectAlert.addAction(UIAlertAction(title: "Send", style: .default, handler: { (action:UIAlertAction) in
-        if let projectContent = projectAlert.textFields?.first?.text {
-            let project = Project(content: projectContent, addedByUser: "Brandon Toppins")
-            let projectRef = self.dbRef.child(projectContent.lowercased())
-            
-            projectRef.setValue(project.toAny())
-        }
-    }))
-    
-    self.present(projectAlert, animated: true, completion: nil)
-}
-*/
+
