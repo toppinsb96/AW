@@ -1,4 +1,4 @@
-Artist Walls
+Artistic Walls
 
 An iPhone app written in swift. 
 
