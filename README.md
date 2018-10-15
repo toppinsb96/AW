@@ -1,6 +1,5 @@
-# AW
+Artist Walls
 
-Open code in xCode
+An iPhone app written in swift. 
 
-Either hit the run button to run the simulation of an iPhone or upload onto a device and test there.
-
+The app was created as a possible solution to a wall painting business.
